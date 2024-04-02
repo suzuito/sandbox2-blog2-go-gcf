@@ -8,3 +8,5 @@ artifacts:
   objects:
     location: 'gs://${PROJECT_ID}-blog2-cloud-function-source'
     paths: ['${BRANCH_NAME}.zip']
+options:
+  logging: CLOUD_LOGGING_ONLY
