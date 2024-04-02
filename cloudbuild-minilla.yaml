@@ -1,0 +1,10 @@
+steps:
+- name: golang:1.22
+  entrypoint: /bin/bash
+  args:
+  - -c
+  - apt update && apt install -y zip && bash package.sh ${BRANCH_NAME}
+artifacts:
+  objects:
+    location: 'gs://${PROJECT_ID}-blog2-cloud-function-sources'
+    paths: ['${BRANCH_NAME}.zip']
