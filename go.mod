@@ -4,7 +4,7 @@ go 1.22
 
 require (
 	github.com/GoogleCloudPlatform/functions-framework-go v1.8.1
-	github.com/suzuito/sandbox2-go v1.3.16-0.20240402101041-6d6920280d93
+	github.com/suzuito/sandbox2-go v1.3.16-0.20240402225901-76fc2b67a7af
 )
 
 require (
