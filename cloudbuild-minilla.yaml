@@ -6,5 +6,5 @@ steps:
   - apt update && apt install -y zip && bash package.sh ${BRANCH_NAME}
 artifacts:
   objects:
-    location: 'gs://${PROJECT_ID}-blog2-cloud-function-sources'
+    location: 'gs://${PROJECT_ID}-blog2-cloud-function-source'
     paths: ['${BRANCH_NAME}.zip']
