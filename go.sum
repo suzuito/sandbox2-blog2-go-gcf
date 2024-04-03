@@ -1142,6 +1142,8 @@ github.com/suzuito/sandbox2-go v1.3.16-0.20240402101041-6d6920280d93 h1:wB7Zy/jR
 github.com/suzuito/sandbox2-go v1.3.16-0.20240402101041-6d6920280d93/go.mod h1:6Ot9+LC16Dyq1VmC6y9LsoLTeteUii3iW12EtmmE4W8=
 github.com/suzuito/sandbox2-go v1.3.16-0.20240402225901-76fc2b67a7af h1:k+vuLsvJC+qw30s1WeOBvqOB8VlH4G2Q34vqxGZpDBg=
 github.com/suzuito/sandbox2-go v1.3.16-0.20240402225901-76fc2b67a7af/go.mod h1:6Ot9+LC16Dyq1VmC6y9LsoLTeteUii3iW12EtmmE4W8=
+github.com/suzuito/sandbox2-go v1.3.16-0.20240403044616-6f27b5293c39 h1:KdIM0Jh6o6Z8nXJPq3WBiYflBwHLPtXTiIJmyRBU0AE=
+github.com/suzuito/sandbox2-go v1.3.16-0.20240403044616-6f27b5293c39/go.mod h1:6Ot9+LC16Dyq1VmC6y9LsoLTeteUii3iW12EtmmE4W8=
 github.com/twitchyliquid64/golang-asm v0.15.1 h1:SU5vSMR7hnwNxj24w34ZyCi/FmDZTkS4MhqMhdFk5YI=
 github.com/twitchyliquid64/golang-asm v0.15.1/go.mod h1:a1lVb/DtPvCB8fslRZhAngC2+aY1QWCk3Cedj/Gdt08=
 github.com/ugorji/go/codec v1.2.11 h1:BMaWp1Bb6fHwEtbplGBGJ498wD+LKlNSl25MjdZY4dU=

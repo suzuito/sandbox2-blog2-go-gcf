@@ -9,23 +9,22 @@ import (
 	"github.com/suzuito/sandbox2-go/blog2/pkg/environment"
 	"github.com/suzuito/sandbox2-go/blog2/pkg/inject"
 	"github.com/suzuito/sandbox2-go/blog2/pkg/usecase"
-	"github.com/suzuito/sandbox2-go/common/cusecase/clog"
 )
 
 var u usecase.Usecase
-var logger *slog.Logger
+var logger *slog.Logger = slog.Default()
 
 func init() {
 	ctx := context.Background()
 	var err error
 	env := environment.Environment{}
 	if err := envconfig.Process("", &env); err != nil {
-		clog.L.Errorf(ctx, "%+v", err)
+		logger.Error("", "err", err)
 		return
 	}
 	u, logger, err = inject.NewUsecaseImpl(ctx, &env)
 	if err != nil {
-		clog.L.Errorf(ctx, "%+v", err)
+		logger.Error("", "err", err)
 		return
 	}
 }

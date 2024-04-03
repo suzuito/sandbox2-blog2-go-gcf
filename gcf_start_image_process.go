@@ -4,15 +4,18 @@ import (
 	"context"
 
 	"github.com/cloudevents/sdk-go/v2/event"
-	"github.com/suzuito/sandbox2-go/common/cusecase/clog"
 )
 
 func StartImageProcess(ctx context.Context, e event.Event) error {
 	msg, err := initCloudEventFunction(ctx, &e)
 	if err != nil {
-		clog.L.Errorf(ctx, "%+v", err)
+		logger.Error("", "err", err)
 		return err
 	}
 	logger.Info("Hello world!", "msg", msg)
+	if err := u.StartImageProcessFromGCF(ctx, msg.Message.Data); err != nil {
+		logger.Error("", "err", err)
+		return err
+	}
 	return nil
 }
