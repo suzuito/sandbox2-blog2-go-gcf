@@ -3,10 +3,10 @@ steps:
   entrypoint: /bin/bash
   args:
   - -c
-  - apt update && apt install -y zip && bash package.sh ${BRANCH_NAME}
+  - apt update && apt install -y zip && bash package.sh ${COMMIT_SHA}
 artifacts:
   objects:
     location: 'gs://${PROJECT_ID}-blog2-cloud-function-source'
-    paths: ['${BRANCH_NAME}.zip']
+    paths: ['${COMMIT_SHA}.zip']
 options:
   logging: CLOUD_LOGGING_ONLY
