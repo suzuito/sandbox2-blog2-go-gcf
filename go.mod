@@ -4,6 +4,8 @@ go 1.22
 
 require (
 	github.com/GoogleCloudPlatform/functions-framework-go v1.8.1
+	github.com/cloudevents/sdk-go/v2 v2.14.0
+	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/suzuito/sandbox2-go v1.3.16-0.20240408081252-dba48053a4ec
 )
 
@@ -20,7 +22,6 @@ require (
 	github.com/alecthomas/chroma/v2 v2.12.0 // indirect
 	github.com/bytedance/sonic v1.9.1 // indirect
 	github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311 // indirect
-	github.com/cloudevents/sdk-go/v2 v2.14.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dlclark/regexp2 v1.10.0 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
@@ -41,7 +42,6 @@ require (
 	github.com/googleapis/enterprise-certificate-proxy v0.3.2 // indirect
 	github.com/googleapis/gax-go/v2 v2.12.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/kelseyhightower/envconfig v1.4.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.4 // indirect
 	github.com/leodido/go-urn v1.4.0 // indirect
 	github.com/mattn/go-isatty v0.0.19 // indirect
@@ -68,6 +68,7 @@ require (
 	go.uber.org/zap v1.10.0 // indirect
 	golang.org/x/arch v0.3.0 // indirect
 	golang.org/x/crypto v0.19.0 // indirect
+	golang.org/x/image v0.15.0 // indirect
 	golang.org/x/net v0.21.0 // indirect
 	golang.org/x/oauth2 v0.15.0 // indirect
 	golang.org/x/sync v0.5.0 // indirect
