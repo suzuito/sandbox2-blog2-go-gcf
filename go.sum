@@ -1136,6 +1136,12 @@ github.com/stretchr/testify v1.8.4 h1:CcVxjf3Q8PM0mHUKJCdn+eZZtm5yQwehR5yeSVQQcU
 github.com/stretchr/testify v1.8.4/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXlSw2iwfAo=
 github.com/suzuito/sandbox2-go v1.3.16-0.20240408081252-dba48053a4ec h1:LsESKV4EISoUtvczh0kHt6cPS3J38A4YbDxbBTrLKZA=
 github.com/suzuito/sandbox2-go v1.3.16-0.20240408081252-dba48053a4ec/go.mod h1:FksxaT4KvRhgGibfluB0PAzlUxcje1I2ixepAcVyu8U=
+github.com/suzuito/sandbox2-go v1.3.16-0.20240408082523-7b6803924466 h1:vSEimlohaPkJJV32+Q70CcBwheAM+fxrD1A1u61DF9o=
+github.com/suzuito/sandbox2-go v1.3.16-0.20240408082523-7b6803924466/go.mod h1:FksxaT4KvRhgGibfluB0PAzlUxcje1I2ixepAcVyu8U=
+github.com/suzuito/sandbox2-go v1.3.16-0.20240408095748-32d2c7d15ac1 h1:V3btNWRXTIhM0eGowjkeStGsDfnmgjmDraFHmrD/nHM=
+github.com/suzuito/sandbox2-go v1.3.16-0.20240408095748-32d2c7d15ac1/go.mod h1:FksxaT4KvRhgGibfluB0PAzlUxcje1I2ixepAcVyu8U=
+github.com/suzuito/sandbox2-go v1.3.16-0.20240408100013-2cb30a82dedf h1:IKNlku2gn9kuZ5ixpwqtebRExZYc5VFNJTHA05yftS8=
+github.com/suzuito/sandbox2-go v1.3.16-0.20240408100013-2cb30a82dedf/go.mod h1:FksxaT4KvRhgGibfluB0PAzlUxcje1I2ixepAcVyu8U=
 github.com/twitchyliquid64/golang-asm v0.15.1 h1:SU5vSMR7hnwNxj24w34ZyCi/FmDZTkS4MhqMhdFk5YI=
 github.com/twitchyliquid64/golang-asm v0.15.1/go.mod h1:a1lVb/DtPvCB8fslRZhAngC2+aY1QWCk3Cedj/Gdt08=
 github.com/ugorji/go/codec v1.2.11 h1:BMaWp1Bb6fHwEtbplGBGJ498wD+LKlNSl25MjdZY4dU=

@@ -6,7 +6,7 @@ require (
 	github.com/GoogleCloudPlatform/functions-framework-go v1.8.1
 	github.com/cloudevents/sdk-go/v2 v2.14.0
 	github.com/kelseyhightower/envconfig v1.4.0
-	github.com/suzuito/sandbox2-go v1.3.16-0.20240408081252-dba48053a4ec
+	github.com/suzuito/sandbox2-go v1.3.16-0.20240408100013-2cb30a82dedf
 )
 
 require (
